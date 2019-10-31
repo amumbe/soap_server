@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"	xmlns:gs="http://localhost/universities"> <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getUniversityRequest>
+            <gs:name>KU</gs:name>
+        </gs:getUniversityRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+        <!--        Command to run test the server using curl-->
+        <!--        curl - -header "content-type: text/xml" -d @soap.xml http://localhost/ws-->
+
